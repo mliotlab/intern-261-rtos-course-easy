@@ -1,0 +1,12 @@
+# Ex1 -- các định nghĩa liên quan NVIC priority phải có trong FreeRTOSConfig.h
+#
+# Điền giá trị vào chỗ <?>. Mỗi dòng phải giải thích được trong buổi vấn đáp.
+
+configPRIO_BITS                                 <?>
+configLIBRARY_LOWEST_INTERRUPT_PRIORITY         <?>
+configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY    <?>
+configASSERT( x )                               <?>
+
+# ISR_NVIC_PRIO (app/params.h) phải nằm trong khoảng:
+#   configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY  <=  ISR_NVIC_PRIO  <=  configLIBRARY_LOWEST_INTERRUPT_PRIORITY
+# (số CÀNG NHỎ = ưu tiên phần cứng CÀNG CAO). Giải thích tại sao trong REPORT.md.

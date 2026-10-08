@@ -1,0 +1,27 @@
+# Mentor-only material — never pushed to student remotes
+mentor/
+*.xlsx
+
+# Generated per-student parameters
+**/app/params.h
+**/PARAMS.md
+
+# CMake / build output
+build/
+out/
+CMakeUserPresets.json
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+
+# IDE
+.vscode/
+.settings/
+.metadata/
+
+# LibreOffice lock files
+.~lock.*#

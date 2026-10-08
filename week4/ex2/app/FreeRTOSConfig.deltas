@@ -1,0 +1,7 @@
+# Week 4 / Ex2 -- apply on top of template/'s FreeRTOSConfig.h.
+# configTOTAL_HEAP_SIZE must equal MAX_HEAP_BYTES from this student's
+# app/params.h (run tools/gen_params.py <MSSV> first).
+
+configTOTAL_HEAP_SIZE = ((size_t) MAX_HEAP_BYTES)
+configUSE_TRACE_FACILITY = 1
+configGENERATE_RUN_TIME_STATS = 1
