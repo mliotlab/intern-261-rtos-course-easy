@@ -10,8 +10,8 @@ configMINIMAL_STACK_SIZE                128U
 configTOTAL_HEAP_SIZE                   4096U
 configUSE_PREEMPTION                    1
 configUSE_PORT_OPTIMISED_TASK_SELECTION 0
-configCHECK_FOR_STACK_OVERFLOW          2
-configUSE_MALLOC_FAILED_HOOK            1
+configCHECK_FOR_STACK_OVERFLOW          0
+configUSE_MALLOC_FAILED_HOOK            0
 
 configPRIO_BITS                         4U
 configLIBRARY_LOWEST_INTERRUPT_PRIORITY         15U
